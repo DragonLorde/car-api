@@ -1,0 +1,71 @@
+{
+    "drom" : {
+        "min_year":"minyear=",
+        "max_year":"maxyear=",
+        "min_price":"minprice=",
+        "max_price":"maxprice=",
+        "state": [
+            "damaged=1",
+            "damaged=2"
+        ],
+        "trans": [
+            "transmission[]=2&transmission[]=3&transmission[]=4&transmission[]=5&transmission[]=-1", 
+            "transmission[]=1" 
+        ],
+        "milage":"maxprobeg=",
+        "min_milage":"minprobeg=",
+        "wheel": [
+            "w=1", 
+            "w=2"
+        ],
+        "privod": [
+            "privod=3",
+            "privod=1",
+            "privod=2"
+        ],
+        "body": [
+            "sedan",
+            "frametype[]=5&frametype[]=4",
+            "frametype[]=7&frametype[]=8",
+            "wagon",
+            "liftback"
+        ],
+        "min_v":"mv=",
+        "max_v":"xv="
+    }, 
+
+    "auto_ru": {
+        "min_year":"year_from=",
+        "max_year":"year_to=",
+        "min_price":"price_from=",
+        "max_price":"price_to=",
+        "state": [
+            "damage_group=BEATEN",
+            ""
+        ],
+        "trans": [
+            "transmission=AUTO&transmission=AUTOMATIC&transmission=ROBOT&transmission=VARIATOR", 
+            "transmission=MECHANICAL" 
+        ],
+        "milage":"km_age_to=",
+        "wheel": [
+            "steering_wheel=RIGHT",  
+            "steering_wheel=LEFT"
+        ],
+        "privod": [
+            "gear_type=ALL_WHEEL_DRIVE",
+            "gear_type=FORWARD_CONTROL",
+            "gear_type=REAR_DRIVE"
+        ],
+        "body": [
+            "body-sedan",
+            "body-hatchback",
+            "body-allroad",
+            "body-wagon"
+        ],
+        "min_v":"mv=displacement_from=",
+        "max_v":"displacement_to"
+    }
+}
+
+
